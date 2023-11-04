@@ -10,8 +10,8 @@ function AppRouter() {
     <Router>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/task1" component={Task1} />
-        <Route path="/task2" component={Task2} />
+        <Route path="/task-management" component={Task1} />
+        <Route path="/second-problem" component={Task2} />
       </Switch>
     </Router>
   );
